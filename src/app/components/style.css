@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400&display=swap');
+.hfc{
+    background: rgb(16,16,17,0.8);
+    /* opacity: 0.8; */
+}
+.ffon{
+    font-family: 'Source Sans 3', sans-serif;
+
+}
+.fcb{
+    background: #F5F5F7;
+}
+.hsc{
+    color:#bcbcc2;
+    font-size: 13px;
+}
+.fwid{
+    width:1100px;
+}
