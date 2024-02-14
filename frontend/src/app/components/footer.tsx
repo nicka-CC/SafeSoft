@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function Footer(){
     return(
         <div>
-            <div className="text-black fcb mt-32 justify-center  pb-10 pt-10 flex justify-center  ">
+            <div className="text-black fcb mt-32  pb-10 pt-10 flex justify-center  ">
                 <div className="fwid">
                 <div className="flex">
                     <div className="mr-16">
@@ -15,7 +15,7 @@ export default function Footer(){
                         </Link>
                     </div>
                     <div className="flex-col  flex ffon mr-40">
-                        <div className="mb-0.5"><Link href="/articles">Articles</Link></div>
+                        <Link href="/articles"><div className="mb-0.5">Articles</div></Link>
                         <div className="mb-0.5"><Link href="/password_manager">Password Manager</Link></div>
                         <div className="mb-0.5"><Link href="/contacs">Contacs</Link></div>
                         <div className="mb-0.5"><Link href="/help_us">Help Us</Link></div>
